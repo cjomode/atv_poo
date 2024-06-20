@@ -2,7 +2,7 @@ import Tv from './tv';
 import promptSync from 'prompt-sync';
 
 const prompt = promptSync();
-const tv = new Tv("LG", 42, "LCD",13);
+const tv = new Tv("LG", 55, "LED",13);
 
 function controleRemoto() {
     let opcao = ''; 
@@ -41,3 +41,4 @@ function controleRemoto() {
 }
 
 controleRemoto();
+tv.exibir();

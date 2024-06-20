@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tv_1 = __importDefault(require("./tv"));
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
 const prompt = (0, prompt_sync_1.default)();
-const tv = new tv_1.default("LG", 42, "LCD", 13);
+const tv = new tv_1.default("LG", 55, "LED", 13);
 function controleRemoto() {
     let opcao = '';
     while (opcao !== '5') {
@@ -41,4 +41,5 @@ function controleRemoto() {
     }
 }
 controleRemoto();
+tv.exibir();
 //# sourceMappingURL=main.js.map

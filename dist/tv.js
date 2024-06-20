@@ -60,6 +60,9 @@ class Tv {
             console.log("A TV está desligada. Não é possível diminuir o volume.");
         }
     }
+    exibir() {
+        console.log(`A sua TV é uma ${this.marca} ${this.tamanho} polegadas ${this.tipo}`);
+    }
 }
 exports.default = Tv;
 //# sourceMappingURL=tv.js.map

@@ -66,5 +66,9 @@ class Tv{
             console.log("A TV está desligada. Não é possível diminuir o volume.");
         }
     }
+
+    exibir(): void {
+        console.log(`A sua TV é uma ${this.marca} ${this.tamanho} polegadas ${this.tipo}`);
+    }
 }
 export default Tv;
